@@ -1,5 +1,6 @@
 const express = require("express");
-
+const connectDB = require("./database");
+connectDB();
 const italianDishesRoutes = require("./routes/italianDishes.routes");
 
 // Create an app by calling express()
